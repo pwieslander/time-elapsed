@@ -38,13 +38,13 @@ $elapsed = new TimeElapsed($date);
 echo $elapsed->getElapsedTime(); // Between $date and $now = DateTime(null, $timezone);
 // Output: a week ago
 
-$localization = /path/to/my_localization.php;
+$localization = '/path/to/my_localization.php';
 $elapsed->setLocalization($localization);
 
 echo $elapsed->getElapsedTime();
 // Output: one week ago
 
-$localization = /path/to/my_french_localization.php;
+$localization = '/path/to/my_french_localization.php';
 $elapsed->setLocalization($localization);
 
 echo $elapsed->getElapsedTime();
