@@ -1,0 +1,15 @@
+{
+    "name": "pwa/time-elapsed",
+    "description": "A class to print the elapsed time between two DateTime objects in a nice (and highly modifiable) format",
+    "authors": [
+        {
+            "name": "Peter Wieslander",
+            "email": "peter.wieslander@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "another-vendor/package": "1.*"
+    },
+}
