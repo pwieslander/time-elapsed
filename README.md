@@ -19,7 +19,7 @@ $elapsed = new \Pwa\TimeElapsed($start);
 Usage
 -----
 This class prints the elapsed time, between two DateTime objects, in a formatted way determined by the anonymous functions found in src/localization.php.
-E.g. this functions will be called if elapsed time is >= 1 week and < 1 month:
+E.g. this function will be called if elapsed time is >= 1 week and < 1 month:
 ```php
 'weeks_ago'	=> function ($weeks) {
 	if (floor($weeks) == 1) {
