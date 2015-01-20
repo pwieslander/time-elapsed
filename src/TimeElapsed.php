@@ -47,7 +47,6 @@ class TimeElapsed
 	public function setStartDate($start)
 	{
 		$this->start = $start;
-		echo "new start:".$start->format('Y-m-d');
 	}
 
 	public function setOptions($options)
