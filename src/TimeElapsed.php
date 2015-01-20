@@ -65,7 +65,7 @@ class TimeElapsed
 
 		$diff_minutes 	= $diff_seconds / 60;
 		$diff_hours 	= $diff_minutes / 60;
-		$diff_days		= $diff_hours / 12;
+		$diff_days		= $diff_hours / 24;
 		$diff_weeks		= $diff_days / 7;
 		$diff_months	= $diff_weeks / 4;
 		$diff_years		= $diff_months / 12;
