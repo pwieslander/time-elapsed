@@ -46,13 +46,13 @@ class TimeElapsed
 
 	public function setOptions($options)
 	{
-		$default = require 'config.php';
+		$default = require __DIR__.'/config.php';
 		$this->options = array_merge($default, $options);
 	}
 
 	public function setLocalization($localization)
 	{
-		$default = require 'localization.php';
+		$default = require __DIR__.'/localization.php';
 		$this->localization = array_merge($default, $localization);
 	}
 
