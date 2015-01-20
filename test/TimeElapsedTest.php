@@ -242,7 +242,7 @@ class TimeElapsedTest extends \PHPUnit_Framework_TestCase
 
 		$elapsed = new TimeElapsed($start, $end);
 
-		$options = ['verbose' => true];
+		$options = array('verbose' => true);
 
 		$elapsed->setOptions($options);
 		$elapsed->getElapsedTime();
