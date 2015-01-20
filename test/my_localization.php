@@ -3,7 +3,7 @@
  * My localization functions in Swedish.
  */
 
-return [
+return array(
 	// Will be called if diff is < 1 minute.
 	'seconds_ago' => function ($seconds) {
 		return 'nyss';
@@ -52,4 +52,4 @@ return [
 	'years_ago'	=> function ($years) {
 		return floor($years) . ' år';
 	},
-];
+);

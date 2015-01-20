@@ -32,8 +32,8 @@ class TimeElapsed
 	public function __construct(
 		$start = null,
 		$end = null,
-		$options = [],
-		$localization = []
+		$options = array(),
+		$localization = array()
 	) {
 		$this->setOptions($options);
 		$this->setLocalization($localization);

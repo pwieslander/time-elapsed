@@ -5,7 +5,7 @@
  * functions to TimeElapsed with method TimeElapsed::setLocalization($your_localization).
  */
 
-return [
+return array(
 	// Will be called if diff is < 1 minute.
 	'seconds_ago' => function ($seconds) {
 		return 'a few seconds ago';
@@ -58,4 +58,4 @@ return [
 			return floor($years) . ' years ago';
 		}
 	},
-];
+);
