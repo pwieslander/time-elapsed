@@ -5,9 +5,15 @@ A PHP class to print the elapsed time between two DateTime objects in a nice (an
 
 Setup
 -----
+To add this package as a local, per-project dependency to your project, simply add a
+dependency on `pwa/time-elapsed` to your project's `composer.json` file.
 
-```php
-include '/path/to/TimeElapsed.php';
+```js
+{
+    "require": {
+        "pwa/time-elapsed": "dev-master"
+    }
+}
 ```
 
 Because this class uses namespacing, when instantiating the object, you need to use the fully qualified namespace:
