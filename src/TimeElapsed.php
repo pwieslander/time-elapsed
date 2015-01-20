@@ -44,6 +44,12 @@ class TimeElapsed
 		$this->end = $end ? $end : new \DateTime(null, $timezone);
 	}
 
+	public function setStartDate($start)
+	{
+		$this->start = $start;
+		echo "new start:".$start->format('Y-m-d');
+	}
+
 	public function setOptions($options)
 	{
 		$default = require __DIR__.'/config.php';
