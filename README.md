@@ -1,3 +1,7 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pewie/time-elapsed/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pewie/time-elapsed/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/pewie/time-elapsed/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/pewie/time-elapsed/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/pewie/time-elapsed/badges/build.png?b=master)](https://scrutinizer-ci.com/g/pewie/time-elapsed/build-status/master)
+
 pwa/time-elapsed
 =========
 
