@@ -22,13 +22,11 @@ class TimeElapsed
 
 	/**
 	 *
-	 * @param DateTime $start datetime.
-	 * @param DateTime $end datetime.
-	 * @param array $options.
-	 * @param array $localization functions.
-	 *
-	 * @return void
-	 */
+	 * @param DateTime $start
+	 * @param DateTime $end
+	 * @param array $options
+	 * @param array $localization functions
+	 *	 */
 	public function __construct(
 		$start = null,
 		$end = null,
