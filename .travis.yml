@@ -3,7 +3,9 @@ php:
   - "5.5"
   - "5.4"
   - "5.3"
-# omitting "script:" will default to phpunit
-script: phpunit --coverage-clover coverage.clover test/TimeElapsedTest.php
+before_script:
+    - wget https://scrutinizer-ci.com/ocular.phar
+script:
+	- phpunit --coverage-clover coverage.clover test/TimeElapsedTest.php
 after_script:
     - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
